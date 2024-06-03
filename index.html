@@ -25,6 +25,9 @@
 
     <!--First Section = Customer Information-->
     <section> 
+
+    <form>
+
     <fieldset>
         <legend><mark><strong>Customer Information</strong></mark></legend>
         <label for="Firstname"><strong>First Name</strong></label><br>
@@ -50,26 +53,35 @@
             <label for="female">Female</label>
         </fieldset>
 
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
     </section>
 
 
  <!-- Image pizza chart section-->   
 
 <h2>Pizza Order</h2>
+<h4><em>Build your own pizza!</em></h4>
 <figure>
 <img src="Pizza-size-chart.png" alt="Pizza Chart Size Difference">
 <figcaption>Size Chart</figcaption>
 </figure>
 
 <!--Second Section is the pizza size and crust-->
-
+<form>
 
     <div>
         
+        <form>
         <fieldset>
             <legend><strong><mark>1 - Size and Crust</mark></strong></legend>
 
             <fieldset><strong>Size</strong><br>
+            <input type="radio" value="Personal">
+            <label for="Personal">Personal</label>    
             <input type="radio" value="Small">
             <label for="Small">Small</label>
             <input type="radio" value="Medium">
@@ -80,18 +92,18 @@
             <label for="X-Large">X-Large</label>
             </fieldset>
 
-            <fieldset><strong>Crust</strong><br>
-                <input type="radio" value="Thin">
-                <label for="Thin">Thin Crust</label>
-                <input type="radio" value="Flat Bread">
-                <label for="Flat">Flat Bread</label>
-                <input type="radio" value="Gluten Free">
-                <label for="Gluten Free">Gluten Free</label>
-                <input type="radio" value="Stuffed Crust">
-                <label for="Stuffed Crust">Stuffed Crust</label>
-            </fieldset>
+                 <fieldset><strong>Crust</strong><br>
+                    <input type="radio" value="Thin">
+                    <label for="Thin">Thin Crust</label>
+                    <input type="radio" value="Flat Bread">
+                    <label for="Flat">Flat Bread</label>
+                    <input type="radio" value="Gluten Free">
+                    <label for="Gluten Free">Gluten Free</label>
+                    <input type="radio" value="Stuffed Crust">
+                    <label for="Stuffed Crust">Stuffed Crust</label>
+                 </fieldset>
 
-            </fieldset>
+        </fieldset>
         
     </div>
 
@@ -239,7 +251,7 @@
 
         </fieldset>
 </section>
-<br><br><br><br><br><br><br><br><br>
+<br><br>
 
 
 <!--Submit/Reset buttons-->
@@ -247,6 +259,7 @@
 <input type="reset" value="Reset">
 <input type="submit" value="Submit">
 
+</form>
 
   <div>
 
