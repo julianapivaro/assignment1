@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+ <header>
+    <nav>
+        <a href="Home">Home</a>
+        <a href="Menu">Menu</a>
+        <a href="Cart">Home</a>
+        <a href="Contact">Contact</a>
+                
+                   
+    </nav>
+ </header>
+ <br><br><br><br>
+
+
+ <main>
+
+    <!--First Section = Customer Information-->
+    <section> 
+    <fieldset>
+        <legend><mark><strong>Customer Information</strong></mark></legend>
+        <label for="Firstname"><strong>First Name</strong></label><br>
+        <input type="text" placeholder="Enter your first name"><br>
+
+        <label for="Lastname"><strong>Last Name</strong></label><br>
+        <input type="text" placeholder="Enter your last name"><br>
+
+        <label for="Lastname"><strong>Address</strong></label><br>
+        <input type="text" placeholder="Enter your address"><br>
+
+        <label for="Email"><strong>Email</strong></label><br>
+        <input type="email" placeholder="Enter your email"><br>
+
+        <label for="password"><strong>Password</strong></label><br>
+        <input type="password" placeholder="Enter your password"><br>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" value="male">
+            <label for="male">Male</label>
+            <input type="radio" value="Female">
+            <label for="female">Female</label>
+        </fieldset>
+
+    </section>
+
+
+ <!-- Image pizza chart section-->   
+
+<h2>Pizza Order</h2>
+<figure>
+<img src="Pizza-size-chart.png" alt="Pizza Chart Size Difference">
+<figcaption>Size Chart</figcaption>
+</figure>
+
+<!--Second Section is the pizza size and crust-->
+
+
+    <div>
+        
+        <fieldset>
+            <legend><strong><mark>1 - Size and Crust</mark></strong></legend>
+
+            <fieldset><strong>Size</strong><br>
+            <input type="radio" value="Small">
+            <label for="Small">Small</label>
+            <input type="radio" value="Medium">
+            <label for="Medium">Medium</label>
+            <input type="radio" value="Large">
+            <label for="Large">Large</label>
+            <input type="radio" value="X-Large">
+            <label for="X-Large">X-Large</label>
+            </fieldset>
+
+            <fieldset><strong>Crust</strong><br>
+                <input type="radio" value="Thin">
+                <label for="Thin">Thin Crust</label>
+                <input type="radio" value="Flat Bread">
+                <label for="Flat">Flat Bread</label>
+                <input type="radio" value="Gluten Free">
+                <label for="Gluten Free">Gluten Free</label>
+                <input type="radio" value="Stuffed Crust">
+                <label for="Stuffed Crust">Stuffed Crust</label>
+            </fieldset>
+
+            </fieldset>
+        
+    </div>
+
+<!--Third section is for the cheese options-->
+
+<section>
+
+    <fieldset id="cheese">
+        <legend><strong><mark>2- Cheese</mark></strong></legend>
+
+        <label for="cheese"><strong>Cheese choice:</strong></label>
+
+        <select name="cheese" id="cheese">
+        <option value="normal">Normal</option>
+        <option value="light">Light</option>
+        <option value="extra">Extra</option>
+        <option value="double">Double</option>
+        <option value="vegan">Vegan Cheese</option>
+        </select>
+
+               </fieldset>
+
+    </fieldset>
+
+</section>
+
+<!-- Forth section is for the sauce options-->
+
+<section>
+
+    <fieldset id="sauces">
+        <legend><strong><mark>3- Sauces</mark></strong></legend>
+
+        <fieldset id="sauce_option"><strong>Sauce</strong><br>
+            <input type="radio" value="pizza">
+            <label for="pizza">Pizza Sauce</label>
+            <input type="radio" value="bbq">
+            <label for="bbq">BBQ Sauce</label>
+            <input type="radio" value="ranch">
+            <label for="ranch">Ranch Sauce</label>
+            <input type="radio" value="marinara">
+            <label for="marinara">Marinara Sauce</label>
+        </fieldset>
+
+    </fieldset>
+
+</section>
+
+
+<!-- Fifth section is for the toppings options-->
+<section>
+
+    <fieldset id="topping">
+        <legend><strong><mark>4- Topping</mark></strong></legend>
+
+        <fieldset id="topping_option"><strong>Sauce</strong><br>
+            <input type="checkbox" value="ham">
+            <label for="ham">Ham</label>
+            <input type="checkbox" value="Mushrooms">
+            <label for="Mushrooms">Mushrooms</label>
+            <input type="checkbox" value="pineapple">
+            <label for="pineapple">Pineapple</label>
+            <input type="checkbox" value="chicken">
+            <label for="chicken">Chicken</label>
+            <input type="checkbox" value="sausage">
+            <label for="sausage">Sausage</label>
+            <input type="checkbox" value="olive">
+            <label for="olive">Black Olive</label>
+            <input type="checkbox" value="onion">
+            <label for="onion">Onion</label>
+        </fieldset>
+
+    </fieldset>
+</section>
+
+<!--Sixth sextion is for the Special Instruction-->
+
+<section>
+
+    <fieldset id="special_instructions">
+        <legend><strong><mark>5- Special Instructions</mark></strong></legend>
+
+        <fieldset id="bake"><strong>Bake</strong><br>
+            <input type="radio" value="normal bake">
+            <label for="normal bake">Normal Bake</label>
+            <input type="radio" value="well done">
+            <label for="well done">Well Done</label>
+            <input type="radio" value="light bake">
+            <label for="light bake">Light Bake</label>
+        </fieldset>
+
+        <fieldset id="cut"><strong>Cut</strong><br>
+            <input type="radio" value="pie cut">
+            <label for="pie cut">Pie Cut</label>
+            <input type="radio" value="square">
+            <label for="square">Square Cut</label>
+            <input type="radio" value="uncut">
+            <label for="uncut">Uncut</label>
+        </fieldset>
+
+        <fieldset id="considerations">
+            <label for="Instructions"><strong> Instructions</strong></label><br>
+            <textarea cols="100" rows="8" placeholder="Enter your instructions:i.e. no tomato, no salt, etc..."></textarea><br>  
+        </fieldset>
+
+    </fieldset>
+</section>
+
+
+
+<!--Seventh section is for payment-->
+
+
+<section>
+
+    <fieldset id="payment">
+        <legend><strong><mark>6- Payment</mark></strong></legend>
+
+        <fieldset id="discount"><strong>Discount Option</strong><br>
+            <label for="Coupoun">Coupoun</label><br>
+            <input type="file" placeholder="Upload your Coupoun"><br>
+
+            <label for="Coupoun">Gift Card</label><br>
+            <input type="text" placeholder="Enter your gift card number"><br>
+
+        </fieldset>
+
+        <fieldset id="options"><strong>Payment Options</strong><br>
+            <input type="radio" value="credit card">
+            <label for="card">Credit Card</label><br>
+
+            <input type="radio" value="debit card">
+            <label for="card">Debit Card</label><br>
+
+            <label for="card number">Card number</label>
+            <input type="number" placeholder="Enter your card number">
+
+            <label for="security code">Security Code</label>
+            <input type="number" placeholder="Enter your security number"> <br>
+
+            <input type="radio" value="cash">
+            <label for="cash">Cash</label>
+            <label for="change">Change</label>
+            <input type="number" placeholder="Enter how much">        
+
+        </fieldset>
+</section>
+<br><br><br><br><br><br><br><br><br>
+
+
+<!--Submit/Reset buttons-->
+
+<input type="reset" value="Reset">
+<input type="submit" value="Submit">
+
+
+  <div>
+
+  </fieldset>
+  </div>  <br><br><br>
+
+
+
+<!--Preferences section-->
+    
+        <fieldset id="preference">
+            <legend><strong>Preferences</strong></legend>
+            <input type="checkbox" value="news">
+            <label for="subscribe"> subscribe to Newsletter</label>
+        </fieldset>
+
+
+    </fieldset>
+
+
+
+ </main>
+
+ <footer>
+    <ul>
+       <small> <em> Copyright
+        Safe Website</em></small>
+    </ul>
+ </footer>
+
+</body>
+</html>

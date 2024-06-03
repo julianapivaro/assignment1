@@ -1,0 +1,131 @@
+/*styling for the whole html file*/
+
+html {background-color: rgb(209, 236, 225);
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+/*styling for the header*/
+header{
+    text-align:center;
+}
+
+
+/*styling for the first section*/
+section fieldset {
+    background-color: rgb(187, 187, 241);
+}
+
+/*styling for the pizza size figure*/
+figure {
+    width: 700px;
+    margin: auto;
+}
+img {
+    width: 100%;
+    height: 300px;
+    display: block;
+   /* margin: auto;*/
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  /*styling for second section*/
+
+  div fieldset {
+    background-color: pink;
+    font-family:Verdana;
+  }
+
+  /*styling for third  section*/
+
+
+  #cheese {
+    background-color:rgb(184, 240, 192);
+    font-family: Verdana;
+  }
+
+  /*styling for fourth section*/
+
+  #sauces {
+    background-color: pink;
+    font-family: Verdana;
+  }
+
+  #sauce_option
+  {
+    background-color: pink;
+    font-family: Verdana;
+  }
+
+  /*styling for fifth section*/
+
+  #topping {
+    background-color:rgb(184, 240, 192);
+    font-family: Verdana;
+  }
+
+  #topping_option
+  {
+    background-color:rgb(184, 240, 192);
+    font-family: Verdana;
+  }
+
+  /*styling for sixth section*/
+
+
+  #special_instructions {
+    background-color:pink;
+    font-family: Verdana;
+  }
+
+  #bake
+  {
+    background-color:pink;
+    font-family: Verdana;
+  }
+
+  #cut
+  {
+    background-color:pink;
+    font-family: Verdana;
+  }
+
+  #considerations {
+    background-color: pink;
+    font-family: Verdana;
+ }
+
+/*styling for the seventh section*/
+
+#payment
+{
+  background-color:rgb(184, 240, 192);
+  font-family: Verdana;
+}
+
+#discount
+{
+  background-color:rgb(184, 240, 192);
+  font-family: Verdana;
+}
+
+#options
+ {
+  background-color:rgb(184, 240, 192);
+  font-family: Verdana;
+}
+
+ 
+#preference {
+    background-color: rgb(187, 187, 241) ;
+}
+ 
+
+  
